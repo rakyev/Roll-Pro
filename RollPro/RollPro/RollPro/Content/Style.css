@@ -1,0 +1,155 @@
+﻿body {
+	background-color: #f4f4f4;
+
+}
+
+label {
+    font-size: .95em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    font-weight:normal;
+}
+
+.controls {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+    -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 1px; /* Firefox */
+    column-rule-width: 1px;
+    -webkit-column-rule-color: lightblue; /* Chrome, Safari, Opera */
+    -moz-column-rule-color: lightblue; /* Firefox */
+    column-rule-color: lightblue;
+    column-width: 300px;
+    -moz-column-width: 300px;
+    -webkit-column-width: 300px;
+}
+
+.block {
+    display:inline-block;
+    width:100%;
+}
+
+.inlineBlock {
+    display:inline-block;
+}
+
+.firstLabel {
+    margin-right:2px;
+}
+
+.secondLabel {
+    width:70px;
+}
+
+.childCheckboxes {
+    margin-left:20px;
+    width:380px;
+}
+
+.childCheckbox {
+    width:180px;
+}
+
+.rbl label {
+    margin-right:10px;
+}
+
+.rbl input[type="radio"]
+{
+    /*margin-left: 10px;*/
+    /*margin-right: 1px;*/
+}
+
+input[type="radio"] {
+    margin-right:2px;
+}
+
+input[type="checkbox"] {
+    margin-right:2px;
+}
+
+.cbInline {
+    display: inline-table;
+    vertical-align:middle;
+    width:135px;
+}
+
+.color {
+    width:90px;
+}
+
+.quantity {
+    display: inline-table;
+    vertical-align:middle;
+    width:157px;
+}
+
+.width {
+    display: inline-table;
+    vertical-align:middle;
+    width:82px;
+}
+
+.lblwidth {
+    margin-left:2px;
+    margin-right:2px;
+}
+
+.space {
+    margin-left:20px;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+.locking {
+    width:120px;
+}
+
+.slat {
+    width:50px;
+}
+
+.slat2 {
+    width:90px;
+}
+
+/*.Column1 {
+    float:left;
+    min-width:300px;
+    width:30%;
+    margin:10px;
+}
+
+.Column2 {
+    float:left;
+    min-width:300px;
+    width:30%;
+    margin:10px;
+}
+
+.Column3 {
+    float:left;
+    min-width:300px;
+    width:30%;
+    margin:10px;
+}
+
+.col1 {
+
+}
+
+.col2 {
+    float:left;
+    padding-right:10px;
+}
+
+.col3 {
+    float:left;
+    padding-right:10px;
+}*/
